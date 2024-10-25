@@ -1,0 +1,112 @@
+#fullpage{
+    margin: auto;
+    padding: auto;
+    margin-top: -22px;
+    background-image: url("../images/pexels-pixabay-434337.jpg");
+    background-size: cover;
+    width: 100%;
+    height:704px ;
+    font-weight: lighter;
+}
+
+#firstDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+#inputId{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#submitBtn{
+    background-color: blue;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    font-size:17px;
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 5px; 
+    height: 32px;
+    width: 25%;
+}
+#submitBtn:hover {
+    background-color: green;
+    color: white;
+}
+
+#notepad{
+    width: 45%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+#contentDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 40px;  
+    background-color: rgba(176,196,222, 0.8);
+}
+#para{
+    font-size: 18px;
+    width: 60%;
+    text-align: left;
+    padding-left: 15px;
+}
+#deleteBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size:15px;
+    cursor:pointer; 
+    outline: none;
+    border-radius: 5px; 
+    width: 10%;
+    margin: auto;
+}
+#deleteBtn:hover {
+    background-color: blue;
+    color: white;
+}
+#editBtn{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size:15px;
+    cursor:pointer; 
+    outline: none;
+    border-radius: 5px; 
+    width: 10%;
+    margin: auto;
+} 
+#editBtn:hover{
+    background-color: blue;
+    color: white;
+}
+
+#updateBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size:15px;
+    cursor:pointer; 
+    outline: none;
+    border-radius: 5px; 
+    width: 15%;
+    margin: auto;
+} 
+#updateBtn:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+

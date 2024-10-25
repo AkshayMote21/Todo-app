@@ -1,0 +1,47 @@
+
+#form-card1{
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    width: 30%;
+    height: 350px;
+    border-radius: 15px;
+    background-color: rgb(176,196,222);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+}
+input,button{
+    margin: auto;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #a0a1a1;
+    border-radius: 7px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 85%;
+}
+input:hover{
+    border-color: black;
+}
+button{
+    color: white;
+    background-color: blue;
+    font-size: medium;
+    cursor: pointer;
+}
+.userValidations{
+    color: red;
+    font-size: 10px;
+    text-align: left;
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
