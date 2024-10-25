@@ -4,7 +4,8 @@
 **To-Do List Application**
 
 ## Description
-A full-stack To-Do List application that allows users to register, log in, and manage their tasks. Users can create, read, update, and delete tasks from a MongoDB database.
+A full-stack To-Do List application that allows users to register, log in, and manage their tasks.
+Users can create, read, update, and delete tasks from a MongoDB database.
 
 ## Features
 - User authentication (registration, login, logout)
